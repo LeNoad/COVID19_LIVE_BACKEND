@@ -13,9 +13,9 @@ import Frontend.Time.dateTime;
 
 public class db_manager {
 	private final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-	private final String DB_URL="jdbc:mysql://182.215.62.205:3306/COVID19_LIVE?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
-	private final String DB_ID="root";
-	private final String DB_PWD="as153462";
+	private final String DB_URL="jdbc:mysql://ipaddress:3306/COVID19_LIVE?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
+	private final String DB_ID="";
+	private final String DB_PWD="";
 	
 	private Connection conn = null;
 	private Statement stmt_graph = null;
