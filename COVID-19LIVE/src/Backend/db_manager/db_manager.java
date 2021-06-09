@@ -11,9 +11,9 @@ import Backend.data_crawl.data_crawl;
 
 public class db_manager extends Thread{
 	private final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private final String DB_URL = "jdbc:mysql://182.215.62.205:3306/COVID19_LIVE?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
-    private final String USER_NAME ="root"; //id
-    private final String PASSWORD = "as153462"; //pwd
+    private final String DB_URL = "jdbc:mysql://ipaddress:3306/COVID19_LIVE?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
+    private final String USER_NAME =""; //id
+    private final String PASSWORD = ""; //pwd
     
     private dateTime date = new dateTime();
 	private data_crawl data = new data_crawl();
