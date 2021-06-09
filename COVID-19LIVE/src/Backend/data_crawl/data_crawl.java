@@ -51,6 +51,8 @@ public class data_crawl {
 		String[] rs = str.split(" ");
 		return rs[0];
 	}
-	
-	
+	public static void main(String[] args) {
+		data_crawl data = new data_crawl();
+		System.out.println(data.table_covidgraph());
+	}
 }
